@@ -1,0 +1,252 @@
+body {
+    background-color: #ffffff;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 80px; 
+}
+
+section {
+    scroll-margin-top: 80px; /* Ajusta según la altura de tu navbar */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px #ffffff; /* Agrega una sombra ligera para destacar */
+}
+
+.nav-link{
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.nav-link:hover{
+    color: #34c5e9;
+    transition: all 0.3s ease-in-out;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.custom-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0077b6; /* Azul principal */
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.custom-link i {
+    font-size: 18px;
+    color: #0077b6; /* Iconos en azul */
+    transition: transform 0.3s ease;
+}
+
+.custom-link:hover {
+    color: #f8f9fa; /* Blanco */
+    background-color: #0077b6; /* Azul principal */
+    text-decoration: none;
+    padding: 10px 18px;
+}
+
+.custom-link:hover i {
+    color: #f8f9fa; /* Iconos en blanco al pasar el cursor */
+    transform: scale(1.1);
+}
+
+
+.poppins-thin {
+    font-family: "Poppins", serif !important;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif !important;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif !important;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif !important;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif !important;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif !important;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif !important;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif !important;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif !important;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif !important;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif !important;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif !important;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif !important;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif !important;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif !important;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif !important;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif !important;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .team-container {
+    text-align: left;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.team-member i {
+    font-size: 24px;
+    color: #0077b6; /* Azul principal */
+}
+
+.team-member .name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #343a40;
+}
+
+.team-member .role {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Caja de privacidad */
+.privacy-box {
+    background: #f8f9fa; /* Color de fondo claro */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos dentro de la caja */
+.privacy-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0077b6; /* Azul corporativo */
+    margin-top: 15px;
+}
+
+/* Lista de Declaración */
+.privacy-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.privacy-list li {
+    font-size: 1rem;
+    color: #6c757d; /* Gris intermedio */
+    margin-bottom: 10px;
+}
+
+/* Estilo para el correo de contacto */
+.contact-email {
+    font-size: 1rem;
+    color: #343a40; /* Gris oscuro */
+    font-weight: 500;
+}
+
+
+
+  @media (max-width: 991px) { 
+    /* Para dispositivos móviles, aumenta el padding para evitar que el menú tape el contenido */
+    body {
+        padding-top: 100px;
+    }
+}
+  
