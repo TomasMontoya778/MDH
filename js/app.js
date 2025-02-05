@@ -3,6 +3,8 @@ $(document).ready(function(){
         $("#navbarNav").toggleClass("show");
     });
 
+    console.log(process.env.NEXT_PUBLIC_API_URL);
+
     $("#contactoForm").validate({
         rules: {
             nombre: {
