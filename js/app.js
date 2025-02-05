@@ -1,9 +1,9 @@
+import API_URL from "./config.js";
+
 $(document).ready(function(){
     $("#btnMenu").click(function(){
         $("#navbarNav").toggleClass("show");
     });
-
-    console.log(process.env.NEXT_PUBLIC_API_URL);
 
     $("#contactoForm").validate({
         rules: {
@@ -38,7 +38,7 @@ $(document).ready(function(){
         },
         submitHandler: function(form) {
             $.ajax({
-                url: process.env.NEXT_PUBLIC_API_URL+"/proyecto/backend/contacto/",
+                url: API_URL+"/contacto/",
                 type: "POST",
                 data: $(form).serialize(),
                 success: function(data) {
