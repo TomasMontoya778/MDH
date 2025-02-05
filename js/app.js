@@ -42,9 +42,9 @@ $(document).ready(function(){
                 data: $(form).serialize(),
                 success: function(data) {
                     limpiarFormulario();
-                    $(".isSuccess").removeClass("d-lg-none");
+                    $(".isSuccess").removeClass("d-none");
                     setTimeout(function() {
-                        $(".isSuccess").addClass("d-lg-none");
+                        $(".isSuccess").addClass("d-none");
                     }, 3000);
                 }
             });
