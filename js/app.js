@@ -36,7 +36,7 @@ $(document).ready(function(){
         },
         submitHandler: function(form) {
             $.ajax({
-                url: "app-3e112ab4-f0df-498c-9cb3-6948901fb7bc.cleverapps.io/proyecto/backend/contacto/",
+                url: process.env.NEXT_PUBLIC_API_URL+"/proyecto/backend/contacto/",
                 type: "POST",
                 data: $(form).serialize(),
                 success: function(data) {
